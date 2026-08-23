@@ -1,27 +1,52 @@
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="/">
-      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
-        <rect width="64" height="64" rx="13" fill="#D64218"/>
-        <g fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M13 46 C 22 46, 24 32, 32 28 C 39 24.5, 43 22, 50 17"/>
-          <path d="M43.5 16.2 L50.5 16.6 L50 23.6"/>
-        </g>
-        <circle cx="13" cy="46" r="3.4" fill="#FFFFFF"/>
-        <circle cx="23.6" cy="38.2" r="2.5" fill="#FFFFFF" opacity=".72"/>
-        <circle cx="32.6" cy="27.6" r="2.5" fill="#FFFFFF" opacity=".86"/>
-      </svg>
-      <span>Trend&nbsp;Walkers</span>
-    </a>
-    <button class="menu-btn" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="nav-links" id="nav">
-      <a href="/services">Services</a>
-      <a href="/about">About</a>
-      <a href="/#process">Process</a>
-      <a href="/contact">Contact</a>
-      <a class="btn btn-primary" href="/contact">Get a Free Audit</a>
-    </nav>
-  </div>
-</header>
+<div class="cursor-block">
+            <div class="cursor__ball cursor__ball--big"><svg height="30" width="30"><circle cx="15" cy="15" r="12" stroke-width="0"></circle></svg> </div>
+            <div class="cursor__ball cursor__ball--small"><svg height="10" width="10"><circle cx="5" cy="5" r="4" stroke-width="0"></circle></svg></div>
+        </div>
+
+        <header class="site-header" id="mainNavigation">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row gy-2 gy-lg-0 align-items-center justify-content-between">
+                        <div class="col-lg-6 col-md-6 justify-content-center justify-content-md-start">
+                            <div class="mail-link">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a class="text-white" href="mailto:info@trendwalkers.dpdns.org">info@trendwalkers.dpdns.org</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 d-flex justify-content-center justify-content-md-end">
+                            <a href="tel:+916283101614" class="text-white phone-link">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+91 62831 01614</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-block">
+                <div class="container">
+                    <div class="navigation-nav">
+                        <a href="/" class="logo">
+                            <img src="/logo-light.svg" alt="logo">
+                        </a>
+                        <div class="navbar-right d-flex align-items-center">
+                            <ul class="navbar-nav ms-auto list-unstyled mb-0 me-lg-5">
+                                <li class="nav-item"><a class="nav-link text-white w-normal" href="/services">Services</a></li>
+                                <li class="nav-item"><a class="nav-link text-white w-normal" href="/about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link text-white w-normal" href="/#portfolio">Portfolio</a></li>
+                            </ul>
+                            <a href="javascript:void(0)" class="button button-primary" data-bs-toggle="modal" data-bs-target="#boost-modal">
+                                <span>Contact Us!</span>
+                                <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5525 7.75056C17.604 7.69397 17.6436 7.65058 17.6638 7.6302C17.9093 7.3085 18.0391 6.9153 18.0391 6.4923C18.0391 6.1134 17.9235 5.7344 17.6922 5.4282C17.5438 5.2156 17.2013 4.8742 17.2013 4.8742C15.9882 3.54681 12.9708 1.54975 11.4403 0.90756C11.4403 0.89435 10.5305 0.51432 10.0974 0.5H10.0396C9.37512 0.5 8.75442 0.87892 8.43692 1.49137C8.30583 1.74453 8.18279 2.36474 8.12442 2.65898C8.10559 2.75394 8.09349 2.81495 8.09002 2.81871C7.96022 3.69332 7.87402 5.035 7.87402 6.5066C7.87402 8.0531 7.96022 9.4521 8.11842 10.3124C8.11842 10.3267 8.27772 11.1143 8.37912 11.3764C8.53842 11.7554 8.82642 12.077 9.18752 12.2808C9.47662 12.4262 9.77982 12.5 10.0974 12.5C10.4301 12.4846 11.0508 12.2665 11.2963 12.164C12.913 11.5218 16.0035 9.4234 17.1871 8.1402C17.3191 8.00691 17.4566 7.85589 17.5525 7.75056ZM1.54231 8.01725L5.24154 7.69005C5.89281 7.69005 6.4208 7.15805 6.4208 6.49935C6.4208 5.84165 5.89281 5.30855 5.24154 5.30855L1.54231 4.98145C0.712143 4.98145 0.0390625 5.66105 0.0390625 6.49935C0.0390625 7.33755 0.712143 8.01725 1.54231 8.01725Z" fill="white"/>
+                                </svg> 
+                            </a>
+                            <div id="nav-icon1" class="navbar-toggler">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
