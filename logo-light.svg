@@ -8,5 +8,5 @@
   <circle cx="18.2" cy="36.3" r="1.7" fill="#FFFFFF" opacity=".72"/>
   <circle cx="24.4" cy="29.0" r="1.7" fill="#FFFFFF" opacity=".86"/>
   <text x="58" y="41" font-family="Gilroy, 'Segoe UI', system-ui, sans-serif"
-        font-size="27" font-weight="600" letter-spacing="-0.3" fill="#0C0E15">Trend<tspan fill="#D64218"> Walkers</tspan></text>
+        font-size="27" font-weight="700" letter-spacing="-0.3" fill="#FFFFFF">Trend<tspan fill="#D64218"> Walkers</tspan></text>
 </svg>

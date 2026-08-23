@@ -1,2 +1,7 @@
 .DS_Store
 node_modules/
+
+# never commit site backups
+*.zip
+*.tar.gz
+*.wpress

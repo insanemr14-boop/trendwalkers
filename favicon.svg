@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Trend Walkers">
-  <rect width="64" height="64" rx="13" fill="#B4552D"/>
-  <g fill="none" stroke="#FDFBF7" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="64" height="64" rx="13" fill="#D64218"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M13 46 C 22 46, 24 32, 32 28 C 39 24.5, 43 22, 50 17"/>
     <path d="M43.5 16.2 L50.5 16.6 L50 23.6"/>
   </g>
-  <circle cx="13" cy="46" r="3.4" fill="#FDFBF7"/>
-  <circle cx="23.6" cy="38.2" r="2.5" fill="#FDFBF7" opacity=".72"/>
-  <circle cx="32.6" cy="27.6" r="2.5" fill="#FDFBF7" opacity=".86"/>
+  <circle cx="13" cy="46" r="3.4" fill="#FFFFFF"/>
+  <circle cx="23.6" cy="38.2" r="2.5" fill="#FFFFFF" opacity=".72"/>
+  <circle cx="32.6" cy="27.6" r="2.5" fill="#FFFFFF" opacity=".86"/>
 </svg>

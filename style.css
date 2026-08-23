@@ -745,3 +745,11 @@ footer li{margin:.5em 0}
   .split-media .img-frame img,
   .hero-media .img-frame img{aspect-ratio:4/3}
 }
+
+/* ---------- card read-through link ---------- */
+.card-more{margin:16px 0 0;font-size:.9rem}
+.card-more a{color:var(--clay-deep);font-weight:600;text-decoration:none;
+  border-bottom:1px solid transparent;transition:border-color .15s}
+.card-more a:hover{border-bottom-color:var(--clay-deep)}
+.dark .card-more a{color:var(--ochre-lite)}
+.dark .card-more a:hover{border-bottom-color:var(--ochre-lite)}
