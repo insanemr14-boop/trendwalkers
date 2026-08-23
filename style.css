@@ -760,3 +760,21 @@ footer li{margin:.5em 0}
 .inner-page main section:first-child{padding-top:48px}
 .inner-page .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
 .inner-page .card{background:#fff}
+
+/* ---------- portfolio deck viewer ---------- */
+.folio-intro{max-width:62ch}
+.folio-deck{margin-top:36px}
+.folio-page{position:relative;margin:0 0 26px;border-radius:10px;overflow:hidden;
+  background:#241C1A;border:1px solid rgba(255,255,255,.08)}
+.folio-page img.folio-shot{width:100%;height:auto;display:block}
+/* opaque patch that covers the previous agency's mark, re-branded */
+.folio-patch{position:absolute;display:grid;place-items:center;background:#241C1A}
+.folio-patch svg{width:64%;height:auto}
+.folio-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:32px}
+.folio-card{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;
+  text-decoration:none;color:inherit;transition:.18s}
+.folio-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(12,14,21,.10)}
+.folio-card img{width:100%;height:auto;display:block;aspect-ratio:16/9;object-fit:cover}
+.folio-card .folio-meta{padding:18px 20px}
+.folio-card h3{margin:0 0 4px;font-size:1.05rem}
+.folio-card p{margin:0;font-size:.9rem;color:var(--muted)}
