@@ -8,20 +8,20 @@
       <div>
         <h4>Services</h4>
         <ul>
-          <li><a href="/services.html#seo">SEO</a></li>
-          <li><a href="/services.html#social">Social Media Management</a></li>
-          <li><a href="/services.html#linkedin">LinkedIn Marketing</a></li>
-          <li><a href="/services.html#digital">Digital Marketing</a></li>
-          <li><a href="/services.html#reels">Reel Editing</a></li>
+          <li><a href="/services#seo">SEO</a></li>
+          <li><a href="/services#social">Social Media Management</a></li>
+          <li><a href="/services#linkedin">LinkedIn Marketing</a></li>
+          <li><a href="/services#digital">Digital Marketing</a></li>
+          <li><a href="/services#reels">Reel Editing</a></li>
         </ul>
       </div>
       <div>
         <h4>Build</h4>
         <ul>
-          <li><a href="/services.html#web">Web Development</a></li>
-          <li><a href="/services.html#webapp">Web App Development</a></li>
-          <li><a href="/services.html#mobile">Android &amp; iOS Apps</a></li>
-          <li><a href="/services.html#design">Graphic Design</a></li>
+          <li><a href="/services#web">Web Development</a></li>
+          <li><a href="/services#webapp">Web App Development</a></li>
+          <li><a href="/services#mobile">Android &amp; iOS Apps</a></li>
+          <li><a href="/services#design">Graphic Design</a></li>
         </ul>
       </div>
       <div>
@@ -36,7 +36,7 @@
     </div>
     <div class="foot-bot">
       <span>&copy; 2026 Trend Walkers. All rights reserved.</span>
-      <span><a href="/privacy.html">Privacy</a> &nbsp;·&nbsp; <a href="/contact.html">Contact</a></span>
+      <span><a href="/privacy">Privacy</a> &nbsp;·&nbsp; <a href="/contact">Contact</a></span>
     </div>
   </div>
 </footer>

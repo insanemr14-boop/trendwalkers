@@ -16,11 +16,11 @@
       <span></span><span></span><span></span>
     </button>
     <nav class="nav-links" id="nav">
-      <a href="/services.html">Services</a>
-      <a href="/about.html">About</a>
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
       <a href="/#process">Process</a>
-      <a href="/contact.html">Contact</a>
-      <a class="btn btn-primary" href="/contact.html">Get a Free Audit</a>
+      <a href="/contact">Contact</a>
+      <a class="btn btn-primary" href="/contact">Get a Free Audit</a>
     </nav>
   </div>
 </header>
