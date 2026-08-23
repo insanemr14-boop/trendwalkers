@@ -1,18 +1,14 @@
 [
- {"slug":"graphic","title":"Graphic Design","cover":1,"pages":9,
+ {"slug":"graphic","title":"Graphic Design","list":[2,3,4,5,6,7,8],
   "desc":"Brand identity, packaging, social creative and campaign design.",
-  "intro":"Identity systems, packaging, menus and campaign creative built to stay recognisable across every place a brand shows up.",
-  "patches":{"1":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true}],"9":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true},{"bbox":[0.015,0.895,0.435,0.975],"bg":"#2E2420","text":"info@trendwalkers.dpdns.org"},{"bbox":[0.665,0.895,0.995,0.975],"bg":"#2E2420","text":"trendwalkers.dpdns.org"}]}},
- {"slug":"social-media","title":"Social Media","cover":1,"pages":18,
+  "intro":"Identity systems, packaging, menus and campaign creative built to stay recognisable across every place a brand shows up."},
+ {"slug":"social-media","title":"Social Media","list":[2,3,4,5,6,7,8,9,10,11,12,13,14,15],
   "desc":"Feed design, content systems and community growth.",
-  "intro":"Feed-level design and content systems — grids, carousels, stories and reels built around a posting rhythm a brand can actually keep.",
-  "patches":{"1":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true}],"16":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true}],"18":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true},{"bbox":[0.015,0.895,0.435,0.975],"bg":"#2E2420","text":"info@trendwalkers.dpdns.org"},{"bbox":[0.665,0.895,0.995,0.975],"bg":"#2E2420","text":"trendwalkers.dpdns.org"}]}},
- {"slug":"content-creation","title":"Content Creation","cover":1,"pages":9,
+  "intro":"Feed-level design and content systems — grids, carousels, stories and reels built around a posting rhythm a brand can actually keep."},
+ {"slug":"content-creation","title":"Content Creation","list":[2,3,4,5,6,7,8],
   "desc":"Content calendars, scripting and campaign copy.",
-  "intro":"Planned content — calendars, taglines, captions and campaign concepts mapped to what each account is actually trying to move.",
-  "patches":{"1":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true}],"9":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true},{"bbox":[0.015,0.895,0.435,0.975],"bg":"#2E2420","text":"info@trendwalkers.dpdns.org"},{"bbox":[0.665,0.895,0.995,0.975],"bg":"#2E2420","text":"trendwalkers.dpdns.org"}]}},
- {"slug":"photoshoot","title":"Product Photography","cover":1,"pages":8,
+  "intro":"Planned content — calendars, taglines, captions and campaign concepts mapped to what each account is actually trying to move."},
+ {"slug":"photoshoot","title":"Product Photography","list":[2,3,4,5,6,7],
   "desc":"Product, food and lifestyle photography.",
-  "intro":"Product, food and lifestyle shoots — styled, lit and retouched for the feed, the menu and the storefront.",
-  "patches":{"1":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true}],"8":[{"bbox":[0.45,0.04,0.54,0.13],"bg":"#2E2420","mark":true},{"bbox":[0.015,0.895,0.435,0.975],"bg":"#2E2420","text":"info@trendwalkers.dpdns.org"},{"bbox":[0.665,0.895,0.995,0.975],"bg":"#2E2420","text":"trendwalkers.dpdns.org"}]}}
+  "intro":"Product, food and lifestyle shoots — styled, lit and retouched for the feed, the menu and the storefront."}
 ]

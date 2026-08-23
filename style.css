@@ -768,8 +768,6 @@ footer li{margin:.5em 0}
   background:#241C1A;border:1px solid rgba(255,255,255,.08)}
 .folio-page img.folio-shot{width:100%;height:auto;display:block}
 /* opaque patch that covers the previous agency's mark, re-branded */
-.folio-patch{position:absolute;display:grid;place-items:center;background:#241C1A}
-.folio-patch svg{width:64%;height:auto}
 .folio-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:32px}
 .folio-card{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;
   text-decoration:none;color:inherit;transition:.18s}
