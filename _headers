@@ -10,5 +10,5 @@
 /*.svg
   Cache-Control: public, max-age=604800
 
-/.src/*
+/_src/*
   X-Robots-Tag: noindex, nofollow

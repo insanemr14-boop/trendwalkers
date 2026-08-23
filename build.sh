@@ -1,9 +1,9 @@
 #!/bin/bash
-# Assembles static pages from .src/body-*.html + shared parts in .src/. No deps.
+# Assembles static pages from _src/body-*.html + shared parts in _src/. No deps.
 set -e
 cd "$(dirname "$0")"
-for f in .src/body-*.html; do
-  page="$(basename "${f#.src/body-}")"
+for f in _src/body-*.html; do
+  page="$(basename "${f#_src/body-}")"
   title=$(sed -n '1s/^<!--title:\(.*\)-->$/\1/p' "$f")
   desc=$(sed -n  '2s/^<!--desc:\(.*\)-->$/\1/p'  "$f")
   canon=$(sed -n '3s/^<!--canon:\(.*\)-->$/\1/p' "$f")
@@ -19,12 +19,12 @@ for f in .src/body-*.html; do
     echo "<meta property=\"og:url\" content=\"https://trendwalkers.dpdns.org${canon}\">"
     echo '<meta property="og:image" content="https://trendwalkers.dpdns.org/logo.svg">'
     echo '<meta name="twitter:card" content="summary_large_image">'
-    cat .src/_head.part
-    cat .src/_schema.part
+    cat _src/_head.part
+    cat _src/_schema.part
     echo '</head><body>'
-    cat .src/_header.part
+    cat _src/_header.part
     tail -n +4 "$f"
-    cat .src/_footer.part
+    cat _src/_footer.part
     echo '</body></html>'
   } > "$page"
 done

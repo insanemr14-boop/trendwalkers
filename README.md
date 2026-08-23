@@ -4,9 +4,9 @@ Static marketing site. No framework, no build dependencies.
 
 ## Editing
 
-Page content lives in `.src/body-*.html`. The first three lines of each are
+Page content lives in `_src/body-*.html`. The first three lines of each are
 metadata comments (`title`, `desc`, `canon`). Shared chrome lives in
-`.src/*.part`.
+`_src/*.part`.
 
 After editing, regenerate the deployed pages:
 
@@ -14,7 +14,7 @@ After editing, regenerate the deployed pages:
 ./build.sh
 ```
 
-Commit both the `.src/body-*.html` source and the generated `*.html` output —
+Commit both the `_src/body-*.html` source and the generated `*.html` output —
 Cloudflare Pages serves the repo as-is with no build command.
 
 ## Deploy
