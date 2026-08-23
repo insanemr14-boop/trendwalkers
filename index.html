@@ -13,7 +13,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..800,0..100,0..1;1,9..144,400..700,0..100,0..1&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">
 {
@@ -59,13 +59,14 @@
   <div class="wrap nav">
     <a class="brand" href="/">
       <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
-        <defs><linearGradient id="hg" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stop-color="#5B3DF5"/><stop offset="55%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#00D4A0"/>
-        </linearGradient></defs>
-        <rect width="64" height="64" rx="16" fill="url(#hg)"/>
-        <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M15 42 L26 31 L34 39 L49 22"/><path d="M40 22 L49 22 L49 31"/>
-        </g><circle cx="15" cy="42" r="4.5" fill="#fff"/>
+        <rect width="64" height="64" rx="13" fill="#B4552D"/>
+        <g fill="none" stroke="#FDFBF7" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 46 C 22 46, 24 32, 32 28 C 39 24.5, 43 22, 50 17"/>
+          <path d="M43.5 16.2 L50.5 16.6 L50 23.6"/>
+        </g>
+        <circle cx="13" cy="46" r="3.4" fill="#FDFBF7"/>
+        <circle cx="23.6" cy="38.2" r="2.5" fill="#FDFBF7" opacity=".72"/>
+        <circle cx="32.6" cy="27.6" r="2.5" fill="#FDFBF7" opacity=".86"/>
       </svg>
       <span>Trend&nbsp;Walkers</span>
     </a>
@@ -84,18 +85,41 @@
 
 <section class="hero">
   <div class="wrap">
-    <span class="eyebrow">Full-service digital growth studio</span>
-    <h1>We walk the trends so your brand leads them.</h1>
-    <p class="lead">Trend Walkers builds the whole online presence — the search rankings, the social feed, the website, the app and the content that makes people stop scrolling. One team, one plan, measurable growth.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="/contact">Get a free growth audit</a>
-      <a class="btn btn-light" href="/services">See what we do</a>
+    <div class="hero-copy">
+      <span class="eyebrow">Full-service digital growth studio</span>
+      <h1>We walk the trends so your brand leads them.</h1>
+      <p class="lead">Trend Walkers builds the whole online presence — the search rankings, the social feed, the website, the app and the content that makes people stop scrolling. One team, one plan, measurable growth.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/contact">Get a free growth audit</a>
+        <a class="btn btn-ghost" href="/services">See what we do</a>
+      </div>
+      <p class="tag-row">
+        <span class="tag">SEO</span><span class="tag">Social</span><span class="tag">LinkedIn</span><span class="tag">Ads</span><span class="tag">Websites</span><span class="tag">Apps</span><span class="tag">Design</span><span class="tag">Reels</span>
+      </p>
     </div>
-    <div class="stats">
-      <div class="stat"><b>SEO</b><span>Rank for what actually converts</span></div>
-      <div class="stat"><b>Social</b><span>Feeds people follow, not skip</span></div>
-      <div class="stat"><b>Build</b><span>Websites, web apps, mobile apps</span></div>
-      <div class="stat"><b>Creative</b><span>Design &amp; reels that carry the brand</span></div>
+    <figure class="hero-media">
+      <figure class="img-frame">
+        <img src="/img/hero.jpg" alt="The Trend Walkers team working together on a client campaign" width="1500" height="1000" fetchpriority="high" decoding="async">
+      </figure>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="split reverse">
+      <div class="split-copy">
+        <span class="eyebrow">The problem we solve</span>
+        <h2>Most brands are paying four vendors to disagree with each other.</h2>
+        <p>A freelancer for SEO. Someone's cousin for Instagram. An agency for the website. A separate editor for reels. Each one optimising their own slice, none of them accountable for the number that actually matters.</p>
+        <p>We hold all of it. The keyword research feeds the reel scripts. The reel comments feed the ad copy. The ad data feeds the landing page. Budget stops leaking in the gaps between vendors.</p>
+      </div>
+      <figure class="split-media">
+        <div class="img-frame">
+          <img src="/img/strategy.jpg" alt="Planning a quarterly growth roadmap" width="1200" height="800" loading="lazy" decoding="async">
+        </div>
+        <figcaption class="figcap">Every engagement starts with a written 90-day plan.</figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -175,7 +199,7 @@
   </div>
 </section>
 
-<section class="alt">
+<section class="dark">
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Why Trend Walkers</span>
@@ -207,6 +231,15 @@
         <p>You talk to the people doing the work. No account-manager telephone game between you and whoever is actually writing the copy.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <blockquote class="pull">
+      <p>An agency that only reports wins is not reporting. It is editing.</p>
+      <cite>How we run every monthly review</cite>
+    </blockquote>
   </div>
 </section>
 
@@ -285,7 +318,7 @@
 <section class="alt">
   <div class="wrap">
     <div class="band">
-      <span class="eyebrow" style="color:#00D4A0">Free, no obligation</span>
+      <span class="eyebrow">Free, no obligation</span>
       <h2>Find out what's holding your growth back.</h2>
       <p>Send us your website or social handle. We'll come back with a written audit of what's broken, what's working and what we'd fix first — whether or not you hire us.</p>
       <div class="hero-cta">
