@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trendwalkers.dpdns.org/sitemap.xml

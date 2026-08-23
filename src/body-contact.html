@@ -1,0 +1,109 @@
+<!--title:Contact Trend Walkers — Free Growth Audit-->
+<!--desc:Talk to Trend Walkers about SEO, social media, digital marketing, web or app development. Email info@trendwalkers.dpdns.org or call +91 62831 01614.-->
+<!--canon:/contact.html-->
+
+<section class="hero" style="padding:clamp(56px,7vw,80px) 0">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Let's talk about your growth.</h1>
+    <p class="lead">Tell us what you're trying to move and we'll come back within one working day with a free written audit and a straight answer.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2 style="font-size:1.5rem">Send us a brief</h2>
+        <p class="muted" style="font-size:.95rem">Fill this in and it opens a pre-written email in your mail app. Prefer to skip it? Just write to <a href="mailto:info@trendwalkers.dpdns.org">info@trendwalkers.dpdns.org</a>.</p>
+        <form class="form" id="brief" novalidate>
+          <div>
+            <label for="name">Your name *</label>
+            <input id="name" name="name" required autocomplete="name" placeholder="Jane Doe">
+          </div>
+          <div>
+            <label for="company">Company / brand</label>
+            <input id="company" name="company" autocomplete="organization" placeholder="Acme Pvt Ltd">
+          </div>
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+          </div>
+          <div>
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+91 ...">
+          </div>
+          <div>
+            <label for="service">What do you need?</label>
+            <select id="service" name="service">
+              <option>Not sure — advise me</option>
+              <option>SEO</option>
+              <option>Social Media Management</option>
+              <option>LinkedIn Marketing</option>
+              <option>Digital Marketing / Ads</option>
+              <option>Web Development</option>
+              <option>Web App Development</option>
+              <option>Android &amp; iOS App</option>
+              <option>Graphic Design</option>
+              <option>Reel / Video Editing</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Tell us a bit more *</label>
+            <textarea id="message" name="message" required placeholder="Your website or social handle, what you've tried, and what you want to happen next."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" style="justify-content:center">Send the brief</button>
+          <p class="muted" id="formnote" style="font-size:.84rem;margin:0" role="status"></p>
+        </form>
+      </div>
+
+      <div>
+        <h2 style="font-size:1.5rem">Or reach us directly</h2>
+        <div class="card" style="margin-bottom:16px">
+          <h3>Email</h3>
+          <p><a href="mailto:info@trendwalkers.dpdns.org">info@trendwalkers.dpdns.org</a><br>Replies within one working day.</p>
+        </div>
+        <div class="card" style="margin-bottom:16px">
+          <h3>Phone</h3>
+          <p><a href="tel:+916283101614">+91 62831 01614</a><br><a href="tel:+917508583782">+91 75085 83782</a><br>Mon–Sat, 10:00–19:00 IST.</p>
+        </div>
+        <div class="card" style="margin-bottom:16px">
+          <h3>WhatsApp</h3>
+          <p><a href="https://wa.me/916283101614">Message us on WhatsApp</a><br>Fastest route for quick questions.</p>
+        </div>
+        <div class="card">
+          <h3>What happens next</h3>
+          <ul>
+            <li>We read the brief and look at what you've got.</li>
+            <li>You get a written audit — free, yours to keep.</li>
+            <li>If it makes sense, we send a scoped, itemised quote.</li>
+            <li>No pressure call, no follow-up spam.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// ponytail: mailto handoff — zero backend. Swap for a Pages Function + email API when volume justifies it.
+document.getElementById('brief').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var f = e.target, note = document.getElementById('formnote');
+  if (!f.checkValidity()) { f.reportValidity(); return; }
+  var v = function (id) { return document.getElementById(id).value.trim(); };
+  var body = [
+    'Name: ' + v('name'),
+    'Company: ' + v('company'),
+    'Email: ' + v('email'),
+    'Phone: ' + v('phone'),
+    'Service: ' + v('service'),
+    '',
+    v('message')
+  ].join('\n');
+  note.textContent = 'Opening your email app… if nothing happens, write to info@trendwalkers.dpdns.org.';
+  window.location.href = 'mailto:info@trendwalkers.dpdns.org'
+    + '?subject=' + encodeURIComponent('New brief — ' + (v('company') || v('name')))
+    + '&body=' + encodeURIComponent(body);
+});
+</script>
