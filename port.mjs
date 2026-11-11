@@ -24,6 +24,7 @@ const META=`
         <meta name="twitter:card" content="summary_large_image">
         <meta name="google-site-verification" content="w8zoMBao-03aGjF3tu49H6_6xJZD_mEMyQjRke4ll3g" />
         <meta name="google-adsense-account" content="ca-pub-3353662240978727" />
+        <script src="/consent.js" data-policy="/privacy"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3353662240978727" crossorigin="anonymous"></script>
 ${fs.readFileSync('_src/_schema.part','utf8').replace(/^/gm,'        ')}`;
 head=head.replace(/<\?php wp_head\(\); \?>/,META);
