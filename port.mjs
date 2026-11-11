@@ -22,6 +22,7 @@ const META=`
         <meta property="og:url" content="${SITE}/">
         <meta property="og:image" content="${SITE}/logo.svg">
         <meta name="twitter:card" content="summary_large_image">
+        <meta name="google-site-verification" content="w8zoMBao-03aGjF3tu49H6_6xJZD_mEMyQjRke4ll3g" />
 ${fs.readFileSync('_src/_schema.part','utf8').replace(/^/gm,'        ')}`;
 head=head.replace(/<\?php wp_head\(\); \?>/,META);
 
