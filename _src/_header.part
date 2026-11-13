@@ -14,9 +14,9 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-flex justify-content-center justify-content-md-end">
-                            <a href="tel:+916283101614" class="text-white phone-link">
-                                <i class="fa-solid fa-phone"></i>
-                                <span>+91 62831 01614</span>
+                            <a href="/contact" class="text-white phone-link">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Contact us</span>
                             </a>
                         </div>
                     </div>

@@ -7,7 +7,6 @@
   "url": "https://trendwalkers.dpdns.org/",
   "description": "Digital marketing agency offering SEO, social media management, LinkedIn marketing, web and app development, graphic design and reel editing.",
   "email": "info@trendwalkers.dpdns.org",
-  "telephone": ["+91-62831-01614", "+91-75085-83782"],
   "logo": {
     "@type": "ImageObject",
     "url": "https://trendwalkers.dpdns.org/logo.svg",
@@ -19,7 +18,6 @@
   "priceRange": "$$",
   "contactPoint": [{
     "@type": "ContactPoint",
-    "telephone": "+91-62831-01614",
     "contactType": "sales",
     "email": "info@trendwalkers.dpdns.org",
     "availableLanguage": ["English", "Hindi", "Punjabi"]
