@@ -13,9 +13,9 @@
   --muted:#6A6D76;
 
   /* brand */
-  --clay:#D64218;
-  --clay-deep:#AE3411;
-  --forest:#243447;
+  --clay:#F5A81C;
+  --clay-deep:#8A5300;
+  --forest:#15171C;
   --sage:#BEDBE0;
   --ochre:#BEDBE0;
 
@@ -283,8 +283,8 @@ header{
 }
 .btn:hover{text-decoration:none}
 
-.btn-primary{background:var(--clay);border-color:var(--clay);color:#fff}      /* 4.9:1 */
-.btn-primary:hover{background:var(--clay-deep);border-color:var(--clay-deep)}
+.btn-primary{background:var(--clay);border-color:var(--clay);color:#0C0E15}
+.btn-primary:hover{background:#0C0E15;border-color:#0C0E15;color:#fff}
 
 .btn-ghost{background:transparent;border-color:var(--ink);color:var(--ink)}
 .btn-ghost:hover{background:var(--ink);color:var(--paper)}

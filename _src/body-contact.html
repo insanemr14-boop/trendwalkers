@@ -16,7 +16,11 @@
       <div>
         <h2 style="font-size:1.5rem">Send us a brief</h2>
         <p class="muted" style="font-size:.95rem">Fill this in and it opens a pre-written email in your mail app. Prefer to skip it? Just write to <a href="mailto:info@trendwalkers.dpdns.org">info@trendwalkers.dpdns.org</a>.</p>
-        <form class="form" id="brief" novalidate>
+        <form class="form" id="brief" method="POST" action="https://dentistseo.dpdns.org/api/lead">
+<input type="hidden" name="site" value="https://trendwalkers.dpdns.org">
+<input type="hidden" name="redirect" value="https://trendwalkers.dpdns.org/thank-you">
+<input type="hidden" name="subject" value="New brief - contact page">
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
           <div>
             <label for="name">Your name *</label>
             <input id="name" name="name" required autocomplete="name" placeholder="Jane Doe">
@@ -53,7 +57,7 @@
             <textarea id="message" name="message" required placeholder="Your website or social handle, what you've tried, and what you want to happen next."></textarea>
           </div>
           <button class="btn btn-primary" type="submit" style="justify-content:center">Send the brief</button>
-          <p class="muted" id="formnote" style="font-size:.84rem;margin:0" role="status"></p>
+          <p class="muted" style="font-size:.84rem;margin:0">Your details go only to our team. We reply within one working day. See our <a href="/privacy">privacy policy</a>.</p>
         </form>
       </div>
 
@@ -85,25 +89,4 @@
   </div>
 </section>
 
-<script>
-// ponytail: mailto handoff — zero backend. Swap for a Pages Function + email API when volume justifies it.
-document.getElementById('brief').addEventListener('submit', function (e) {
-  e.preventDefault();
-  var f = e.target, note = document.getElementById('formnote');
-  if (!f.checkValidity()) { f.reportValidity(); return; }
-  var v = function (id) { return document.getElementById(id).value.trim(); };
-  var body = [
-    'Name: ' + v('name'),
-    'Company: ' + v('company'),
-    'Email: ' + v('email'),
-    'Phone: ' + v('phone'),
-    'Service: ' + v('service'),
-    '',
-    v('message')
-  ].join('\n');
-  note.textContent = 'Opening your email app… if nothing happens, write to info@trendwalkers.dpdns.org.';
-  window.location.href = 'mailto:info@trendwalkers.dpdns.org'
-    + '?subject=' + encodeURIComponent('New brief — ' + (v('company') || v('name')))
-    + '&body=' + encodeURIComponent(body);
-});
-</script>
+

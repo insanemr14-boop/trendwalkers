@@ -5,8 +5,8 @@
 @font-face{font-family:'Gilroy';src:url("../fonts/gilroy-full/Gilroy-Bold.woff2") format("woff2");font-weight:bold;font-style:normal;font-display:swap}
 
 :root {
-    --theme-primary: #D64218;
-    --theme-secondary: #243447;
+    --theme-primary: #F5A81C;
+    --theme-secondary: #15171C;
     --theme-dark: #180000;
     --text-black: #0C0E15;
     --black-color: #000000;
@@ -736,3 +736,10 @@ p {
         display: none;
     }
 }
+/* brand: amber on black */
+.button-primary, .button-primary span{color:#0C0E15}
+.button-primary svg path{fill:#0C0E15}
+.button-primary:hover, .button-primary:hover span{color:#fff}
+.button-primary:hover svg path{fill:#fff}
+.logo img{max-width:250px;object-fit:contain}
+.tw-form .hp, .form .hp{position:absolute;left:-9999px}

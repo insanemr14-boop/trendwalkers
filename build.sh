@@ -28,7 +28,7 @@ for f in _src/body-*.html; do
     echo "        <meta property=\"og:image\" content=\"${SITE}/logo.svg\">"
     echo '        <meta name="twitter:card" content="summary_large_image">'
     cat _src/_chrome-head.part
-    echo '        <link rel="stylesheet" href="/style.css">'
+    echo '        <link rel="stylesheet" href="/style.css?v=20261113">'
     cat _src/_schema.part
     echo '    </head>'
     echo '    <body class="page-body inner-page">'

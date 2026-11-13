@@ -29,10 +29,17 @@
     <div class="card" style="margin-top:2.4em">
       <h3>Want this looked at for your business?</h3>
       <p>We run a free audit of your search, social and site, and tell you plainly what is worth fixing first. No pressure call, no follow-up spam.</p>
-      <div class="hero-cta" style="margin-top:18px">
-        <a class="btn btn-primary" href="/contact">Get your free audit</a>
-        <a class="btn btn-light" href="/services">See our services</a>
-      </div>
+      <form class="form" method="POST" action="https://dentistseo.dpdns.org/api/lead" style="margin-top:18px">
+<input type="hidden" name="site" value="https://trendwalkers.dpdns.org">
+<input type="hidden" name="redirect" value="https://trendwalkers.dpdns.org/thank-you">
+<input type="hidden" name="subject" value="Free audit request - blog: how-long-does-seo-take">
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div><label for="cta-name">Your name *</label><input id="cta-name" name="name" required autocomplete="name"></div>
+        <div><label for="cta-email">Email *</label><input id="cta-email" name="email" type="email" required autocomplete="email"></div>
+        <div><label for="cta-phone">Phone / WhatsApp</label><input id="cta-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div><label for="cta-msg">Your website or social handle *</label><textarea id="cta-msg" name="message" required></textarea></div>
+        <button class="btn btn-primary" type="submit" style="justify-content:center">Send me a free audit</button>
+      </form>
     </div>
     <p class="muted" style="margin-top:2em"><a href="/blog">&larr; All articles</a></p>
   </div>

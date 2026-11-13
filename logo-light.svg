@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" width="360" height="64" role="img" aria-label="Trend Walkers">
-  <rect x="2" y="10" width="44" height="44" rx="9" fill="#D64218"/>
-  <g transform="translate(2 10) scale(0.6875)" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M13 46 C 22 46, 24 32, 32 28 C 39 24.5, 43 22, 50 17"/>
-    <path d="M43.5 16.2 L50.5 16.6 L50 23.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 560 116" width="560" height="116" role="img" aria-label="Trend Walkers">
+  <g transform="translate(0 6)">
+    <polygon points="4,14 100,14 108,32 14,32" fill="#FFFFFF"/>
+    <rect x="42" y="32" width="21" height="64" fill="#FFFFFF"/>
+    <polyline points="80,42 104,92 127,50 150,92 176,44" fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="miter" stroke-miterlimit="6"/>
+    <polygon points="168,36 187,36 206,2 189,2" fill="#F5A81C"/>
+    <polygon points="176,6 216,-6 212,26" fill="#F5A81C"/>
   </g>
-  <circle cx="10.9" cy="41.6" r="2.3" fill="#FFFFFF"/>
-  <circle cx="18.2" cy="36.3" r="1.7" fill="#FFFFFF" opacity=".72"/>
-  <circle cx="24.4" cy="29.0" r="1.7" fill="#FFFFFF" opacity=".86"/>
-  <text x="58" y="41" font-family="Gilroy, 'Segoe UI', system-ui, sans-serif"
-        font-size="27" font-weight="700" letter-spacing="-0.3" fill="#FFFFFF">Trend<tspan fill="#D64218"> Walkers</tspan></text>
+  <text x="240" y="62" font-family="Gilroy, Montserrat, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="5" fill="#FFFFFF">TREND <tspan fill="#F5A81C">WALKERS</tspan></text>
+  <text x="242" y="90" font-family="Gilroy, Montserrat, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" letter-spacing="4.2" fill="#FFFFFF" opacity=".85">WALKING BRANDS TO SUCCESS</text>
 </svg>
