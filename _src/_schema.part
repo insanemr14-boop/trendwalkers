@@ -15,6 +15,7 @@
   },
   "image": "https://trendwalkers.dpdns.org/logo.svg",
   "areaServed": "Worldwide",
+  "sameAs": ["https://www.instagram.com/trendwalkers.in/", "https://www.facebook.com/people/TrendWalkers/61594066847948/"],
   "priceRange": "$$",
   "contactPoint": [{
     "@type": "ContactPoint",
