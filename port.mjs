@@ -59,7 +59,7 @@ home=home.replace(/<\?php echo get_stylesheet_directory_uri\(\); \?>/g,'/assets'
 const swaps=[
   [/>SALTWAVE</g,'>TREND WALKERS<'],
   [/Saltwave Social/g,'Trend Walkers'],
-  [/saltwavesocial@gmail\.com/g,'info@trendwalkers.dpdns.org'],
+  [/saltwavesocial@gmail\.com/g,'trendwalkers.chd@gmail.com'],
   [/tel:\+918482910786/g,'tel:+916283101614'],
   [/\+91 8482910786/g,'+91 62831 01614'],
   [/saltwavesocial/gi,'trendwalkers'],
