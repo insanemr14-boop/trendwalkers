@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 560 116" width="560" height="116" role="img" aria-label="Trend Walkers">
-  <g transform="translate(0 6)">
-    <polygon points="4,14 100,14 108,32 14,32" fill="#FFFFFF"/>
-    <rect x="42" y="32" width="21" height="64" fill="#FFFFFF"/>
-    <polyline points="80,42 104,92 127,50 150,92 176,44" fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="miter" stroke-miterlimit="6"/>
-    <polygon points="168,36 187,36 206,2 189,2" fill="#F5A81C"/>
-    <polygon points="176,6 216,-6 212,26" fill="#F5A81C"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -6 640 142" width="640" height="142" role="img" aria-label="Trend Walkers - Walking Brands to Success">
+  <g>
+    <polygon points="0,30 103,30 112,50 11,50" fill="#FFFFFF"/>
+    <rect x="40" y="50" width="23" height="74" fill="#FFFFFF"/>
+    <polyline points="101,60 121,116 139,56 159,116 183,74" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="8" stroke-linecap="butt"/>
+    <polygon points="174,68 195,68 220,20 203,20" fill="#F5A81C"/>
+    <polygon points="190,20 230,0 228,40" fill="#F5A81C"/>
   </g>
-  <text x="240" y="62" font-family="Gilroy, Montserrat, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" textLength="306" lengthAdjust="spacingAndGlyphs" fill="#FFFFFF">TREND <tspan fill="#F5A81C">WALKERS</tspan></text>
-  <text x="242" y="90" font-family="Gilroy, Montserrat, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" textLength="302" lengthAdjust="spacing" fill="#FFFFFF" opacity=".85">WALKING BRANDS TO SUCCESS</text>
+  <text x="258" y="76" font-family="Gilroy, Montserrat, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" textLength="368" lengthAdjust="spacingAndGlyphs" fill="#FFFFFF">TREND <tspan fill="#F5A81C">WALKERS</tspan></text>
+  <rect x="258" y="100" width="34" height="2" fill="#FFFFFF" opacity=".7"/>
+  <text x="302" y="107" font-family="Gilroy, Montserrat, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" textLength="280" lengthAdjust="spacing" fill="#FFFFFF" opacity=".9">WALKING BRANDS TO SUCCESS</text>
+  <rect x="592" y="100" width="34" height="2" fill="#FFFFFF" opacity=".7"/>
 </svg>

@@ -741,5 +741,6 @@ p {
 .button-primary svg path{fill:#0C0E15}
 .button-primary:hover, .button-primary:hover span{color:#fff}
 .button-primary:hover svg path{fill:#fff}
-.logo img{max-width:250px;object-fit:contain}
+.logo img{max-width:300px;height:auto;object-fit:contain}
+@media (max-width: 991px){header .logo{max-width:210px}}
 .tw-form .hp, .form .hp{position:absolute;left:-9999px}

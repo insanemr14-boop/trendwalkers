@@ -26,7 +26,7 @@
                 <div class="container">
                     <div class="navigation-nav">
                         <a href="/" class="logo">
-                            <img src="/logo-light.svg?v=3" alt="logo">
+                            <img src="/logo-light.svg?v=4" alt="logo">
                         </a>
                         <div class="navbar-right d-flex align-items-center">
                             <ul class="navbar-nav ms-auto list-unstyled mb-0 me-lg-5">

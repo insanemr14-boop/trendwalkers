@@ -17,7 +17,7 @@ for f in _src/body-*.html; do
     echo '    <head>'
     echo '        <meta charset="utf-8">'
     echo '        <meta name="viewport" content="width=device-width, initial-scale=1">'
-    echo '        <link rel="icon" type="image/svg+xml" href="/favicon.svg">'
+    echo '        <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">'
     echo "        <title>${title}</title>"
     echo "        <meta name=\"description\" content=\"${desc}\">"
     echo "        <link rel=\"canonical\" href=\"${SITE}${canon}\">"
